@@ -25,7 +25,7 @@
       I have programming experience for about a year and I've build several projects with all different kids of technologies.<br>
       Currently I am attending an apprenticeship <strong>@hoffmann group munich</strong>.
       </p>
-      <button id="work-checkout-btn" style="margin-top: 1.5rem; font-size: 1rem; cursor: pointer; border-radius: 1rem; border: none">Check out my work</button>
+      <button target="_blank" (click)="checkoutWork()" id="work-checkout-btn" style="margin-top: 1.5rem; font-size: 1rem; cursor: pointer; border-radius: 1rem; border: none">Check out my work</button>
     </div>
     <div>
       <img id="profile-pic" style="width: 12rem; height: auto; border-radius: 1rem" src="assets/Ejeanye%20Jeffrey.jpg">
@@ -36,8 +36,7 @@
 
 <!-- Programming-Stack-Section -->
 <section id="programming-stack-section" style="padding-top: 1rem;">
-    <h1 style="color: #ffff; text-align: center; text-decoration: underline; text-decoration-color: #1976d2">Lots of code written in:</h1>
-    <div style="display: flex; gap: 5rem; justify-content: center; margin-top: 6rem; flex-wrap: wrap;" id="stack-container">
+    <div style="display: flex; gap: 5rem; justify-content: center; margin-top: 2rem; flex-wrap: wrap;" id="stack-container">
       <img src="assets/Github.png">
       <img src="assets/NodeJs.png">
       <img src="assets/Javascript.png">
@@ -48,12 +47,12 @@
 
 <!-- Project-Showcase-Section -->
 <section id="project-showcase-section" style="padding-top: 1rem;">
-<h1 style="color: #ffff; font-size: 2rem; text-align: center;">Projects</h1>
+<h1 style="color: #ffff; font-size: 3rem; text-align: center; text-decoration: underline; text-decoration-color: #1976d2;">Projects</h1>
   <div style="display: flex; gap: 5rem; justify-content: center; margin-top: 3rem; flex-wrap: wrap;" id="projects-container">
 
     <!-- Emojiquiz-Framework -->
     <div id="emojiquiz-container" style="display: flex; flex-direction: column">
-      <h2 style="color: #fff; text-align: center">Discord emojiquiz framework</h2>
+      <h2 style="color: #fff; text-align: center; margin-bottom: 2rem;">Discord emojiquiz framework</h2>
       <img src="assets/Emojiquiz.png">
       <div style="display: flex; justify-content: center; gap: 2rem">
         <button (click)="emojiquizPreview()"  class="project-btn">Live Preview</button>
@@ -63,7 +62,7 @@
 
     <!-- Memory -->
     <div id="memory-container" style="display: flex; flex-direction: column">
-      <h2 style="color: #fff; text-align: center">Memory Game</h2>
+      <h2 style="color: #fff; text-align: center; margin-bottom: 2rem;">Memory Game</h2>
       <img style="width: 450px; height: auto" src="assets/Memory.jpeg">
       <div style="display: flex; justify-content: center; gap: 2rem">
         <button (click)="memoryPreview()" class="project-btn">Live Preview</button>
@@ -74,7 +73,7 @@
 
     <!-- Bookmark Landing Page -->
     <div id="bookmark-container" style="display: flex; flex-direction: column">
-      <h2 style="color: #fff; text-align: center">Bookmark Landing Page</h2>
+      <h2 style="color: #fff; text-align: center; margin-bottom: 2rem;">Bookmark Landing Page</h2>
       <img style="width: 450px; height: auto" src="assets/Bookmark-Landing-Page.jpeg">
       <div style="display: flex; justify-content: center; gap: 2rem">
         <button (click)="bookmarkPreview()" class="project-btn">Live Preview</button>
@@ -91,5 +90,4 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
 <router-outlet></router-outlet>
