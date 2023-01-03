@@ -12,12 +12,12 @@
   <div class="toolbar" role="banner">
     <span id="header-first-letter">J.</span>
     <div class="spacer"></div>
-    <a>Projects</a>
-    <a>About</a>
-    <a>Contact</a>
+    <a href="#project-showcase-section">Projects</a>
+    <a href="#header-section">About</a>
+    <a href="#contact">Contact</a>
   </div>
 
-  <div style="padding-left: 2rem; padding-top: 1rem; display: flex; gap: 5rem; justify-content: center; align-items: center" id="introduction">
+  <div style="padding-left: 2rem; padding-top: 5rem; display: flex; gap: 5rem; justify-content: center; align-items: center" id="introduction">
     <div>
       <span style="font-size: 2rem">Hi, I'm Jeffrey</span>
       <p style="padding-top: .5rem">I am a Software Engineer interested in all different kinds of technologies.<br><br>
@@ -28,7 +28,7 @@
       <button (click)="checkoutWork()" id="work-checkout-btn" style="margin-top: 1.5rem; font-size: 1rem; cursor: pointer; border-radius: 1rem; border: none">Check out my work</button>
     </div>
     <div>
-      <img id="profile-pic" style="width: 12rem; height: auto; border-radius: 1rem" src="assets/Ejeanye%20Jeffrey.jpg">
+      <img id="profile-pic" style="width: 14rem; height: auto; border-radius: 1rem" src="assets/Ejeanye%20Jeffrey.jpg">
     </div>
   </div>
 
@@ -53,7 +53,7 @@
     <!-- Emojiquiz-Framework -->
     <div id="emojiquiz-container" style="display: flex; flex-direction: column">
       <h2 style="color: #fff; text-align: center; margin-bottom: 2rem;">Discord emojiquiz framework</h2>
-      <img src="assets/Emojiquiz.png">
+      <img style="width: 450px; height: auto;" src="assets/Emojiquiz.png">
       <div style="display: flex; justify-content: center; gap: 2rem">
         <button (click)="emojiquizPreview()"  class="project-btn">Live Preview</button>
         <button (click)="emojiquizSource()" class="project-btn">Source</button>
@@ -78,6 +78,32 @@
       <div style="display: flex; justify-content: center; gap: 2rem">
         <button (click)="bookmarkPreview()" class="project-btn">Live Preview</button>
         <button (click)="bookmarkSource()" class="project-btn">Source</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div id="contact-container" style="display: flex; flex-direction: column; align-items: center; gap: 2rem; padding-top: 1rem;">
+    <h1 style="color: #ffff; font-size: 3rem; text-align: center; text-decoration: underline; text-decoration-color: #1976d2;">Contact Me</h1>
+
+    <div id="terminal">
+      <div id="terminal-sidebar">
+        <div id="red"></div>
+        <div id="yellow"></div>
+        <div id="green"></div>
+      </div>
+
+      <div style="display: flex; justify-content: center; padding-top: 1rem; padding-bottom: 1rem">
+        <form action="mailto:jeffrey.ejeanye@hoffmann-group.com" method="post" enctype="text/plain">
+          <label style="color: #1976d2; font-size: 1rem; font-weight: bold;" for="fname">First name:</label><br><br>
+          <input type="text" id="fname" name="fname" placeholder="First name"><br><br>
+          <label style="color: #1976d2; font-size: 1rem; font-weight: bold;" for="lname">Last name:</label><br><br>
+          <input type="text" id="lname" name="lname" placeholder="Last name"><br><br><br>
+          <label style="color: #1976d2; font-size: 1rem; font-weight: bold;">Your message:</label><br><br>
+          <textarea placeholder="Your message"></textarea><br><br>
+          <input id="contact-submit" type="submit" value="Submit">
+        </form>
       </div>
     </div>
   </div>
