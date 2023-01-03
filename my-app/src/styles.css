@@ -164,9 +164,10 @@ p {
 }
 
 #terminal {
-  width: 50rem;
+  width: 50%;
   height: 25rem;
   border: none;
+  max-width: 52rem;
   border-radius: .5rem;
   background-color: black;
   display: flex;
