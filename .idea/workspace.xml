@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bf2ce1f-ce97-4ad1-a119-7be58f2e1135" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/assets/Ejeanye Jeffrey.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/assets/Github.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/assets/Java.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/assets/Javascript.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/assets/Mysql.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/assets/NodeJs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="5bf2ce1f-ce97-4ad1-a119-7be58f2e1135" name="Changes" comment="header and programming languages done">
+      <change afterPath="$PROJECT_DIR$/my-app/src/assets/Bookmark-Landing-Page.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/assets/Emojiquiz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/assets/Memory.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +20,7 @@
       <list>
         <option value="package.json" />
         <option value="HTML File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -45,23 +37,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/ejeanyej/Desktop/Angular/my-app/src/assets",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Users/ejeanyej/Desktop/Angular/my-app/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ejeanyej/Desktop/Angular/my-app/src/assets&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/ejeanyej/Desktop/Angular/my-app/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -87,8 +79,17 @@
       <workItem from="1671616764639" duration="5803000" />
       <workItem from="1671695954353" duration="2138000" />
       <workItem from="1671786027735" duration="417000" />
-      <workItem from="1671787427325" duration="13037000" />
+      <workItem from="1671787427325" duration="13111000" />
+      <workItem from="1672732495908" duration="12305000" />
     </task>
+    <task id="LOCAL-00001" summary="header and programming languages done">
+      <created>1671800691415</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671800691415</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,5 +105,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="header and programming languages done" />
+    <option name="LAST_COMMIT_MESSAGE" value="header and programming languages done" />
   </component>
 </project>
