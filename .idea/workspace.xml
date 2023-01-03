@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bf2ce1f-ce97-4ad1-a119-7be58f2e1135" name="Changes" comment="worked on responsiveness footer hr line, also worked on terminal responsiveness" />
+    <list default="true" id="5bf2ce1f-ce97-4ad1-a119-7be58f2e1135" name="Changes" comment="fixed image height so all images are the same height looked a bit of before">
+      <change beforePath="$PROJECT_DIR$/my-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/app/app.component.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +77,7 @@
       <workItem from="1671695954353" duration="2138000" />
       <workItem from="1671786027735" duration="417000" />
       <workItem from="1671787427325" duration="13111000" />
-      <workItem from="1672732495908" duration="24156000" />
+      <workItem from="1672732495908" duration="24632000" />
     </task>
     <task id="LOCAL-00001" summary="header and programming languages done">
       <created>1671800691415</created>
@@ -147,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672759440386</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fixed image height so all images are the same height looked a bit of before">
+      <created>1672759807041</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1672759807041</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +184,7 @@
     <MESSAGE value="created css for contact section" />
     <MESSAGE value="changed header area design code made it bigger and more readable, also changed hover effect of navigation bar" />
     <MESSAGE value="worked on responsiveness footer hr line, also worked on terminal responsiveness" />
-    <option name="LAST_COMMIT_MESSAGE" value="worked on responsiveness footer hr line, also worked on terminal responsiveness" />
+    <MESSAGE value="fixed image height so all images are the same height looked a bit of before" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed image height so all images are the same height looked a bit of before" />
   </component>
 </project>
