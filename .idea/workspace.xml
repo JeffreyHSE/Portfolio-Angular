@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bf2ce1f-ce97-4ad1-a119-7be58f2e1135" name="Changes" comment="header and programming languages done">
-      <change afterPath="$PROJECT_DIR$/my-app/src/assets/Bookmark-Landing-Page.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/assets/Emojiquiz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/assets/Memory.jpeg" afterDir="false" />
+    <list default="true" id="5bf2ce1f-ce97-4ad1-a119-7be58f2e1135" name="Changes" comment="added project showcase section and fixed some responsive issues but not all yet. Also removed boilerplate code from angular">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +81,7 @@
       <workItem from="1671695954353" duration="2138000" />
       <workItem from="1671786027735" duration="417000" />
       <workItem from="1671787427325" duration="13111000" />
-      <workItem from="1672732495908" duration="12305000" />
+      <workItem from="1672732495908" duration="13990000" />
     </task>
     <task id="LOCAL-00001" summary="header and programming languages done">
       <created>1671800691415</created>
@@ -89,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671800691415</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added project showcase section and fixed some responsive issues but not all yet. Also removed boilerplate code from angular">
+      <created>1672747764920</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672747764920</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +116,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="header and programming languages done" />
-    <option name="LAST_COMMIT_MESSAGE" value="header and programming languages done" />
+    <MESSAGE value="added project showcase section and fixed some responsive issues but not all yet. Also removed boilerplate code from angular" />
+    <option name="LAST_COMMIT_MESSAGE" value="added project showcase section and fixed some responsive issues but not all yet. Also removed boilerplate code from angular" />
   </component>
 </project>

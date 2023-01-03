@@ -8,27 +8,38 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'my-app';
 
+   checkoutWork(): void {
+     // @ts-ignore
+     window.open("https://github.com/JeezyDev", '_blank').focus();
+   }
+
   // Emojiquiz click events
   emojiquizPreview(): void {
-    location.href = "https://github.com/JeezyDev/discord-emojiquiz";
+    // @ts-ignore
+    window.open("https://github.com/JeezyDev/discord-emojiquiz", '_blank').focus();
   }
   emojiquizSource(): void {
-    location.href = "https://github.com/JeezyDev/discord-emojiquiz";
+    // @ts-ignore
+    window.open("https://github.com/JeezyDev/discord-emojiquiz", '_blank').focus();
   }
 
   // Memory click events
   memoryPreview(): void {
-    location.href = "https://github.com/JeezyDev/Memory-game";
+    // @ts-ignore
+    window.open("https://github.com/JeezyDev/Memory-game", '_blank').focus();
   }
   memorySource(): void {
-    location.href = "https://github.com/JeezyDev/Memory-game";
+    // @ts-ignore
+    window.open("https://github.com/JeezyDev/Memory-game", '_blank').focus();
   }
 
   // Bookmark Landing Page click events
   bookmarkPreview(): void {
-    location.href = "https://jeezydev.github.io/Bookmark-Landing-Page/";
+    // @ts-ignore
+    window.open("https://jeezydev.github.io/Bookmark-Landing-Page/", '_blank').focus();
   }
   bookmarkSource(): void {
-    location.href = "https://github.com/JeezyDev/Bookmark-Landing-Page";
+    // @ts-ignore
+    window.open("https://github.com/JeezyDev/Bookmark-Landing-Page", '_blank').focus();
   }
  }
