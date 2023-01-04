@@ -8,14 +8,20 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 <!-- Header-Section -->
-<section id="header-section">
-  <div class="toolbar" role="banner">
+<section id="header-section-desktop">
+  <div id="toolbar-desktop" role="banner">
     <span id="header-first-letter">J.</span>
     <div class="spacer"></div>
     <a href="#project-showcase-section">Projects</a>
     <a href="#header-section">About</a>
     <a href="#contact">Contact</a>
   </div>
+
+  <section id="header-section-mobile">
+    <div id="toolbar-mobile" style="width: 100%">
+      <p (click)="mobileNavbar()" id="mobile-dropdown-menu" style="font-weight: bold; font-size: 2rem; padding-top: 1rem; cursor: pointer; text-align: center">☰</p>
+      </div>
+  </section>
 
   <div style="padding-left: 2rem; padding-top: 5rem; display: flex; justify-content: center; align-items: center" id="introduction">
     <div>
