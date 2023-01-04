@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bf2ce1f-ce97-4ad1-a119-7be58f2e1135" name="Changes" comment="Added mobile header section and renamed header-section to header-section-desktop">
+    <list default="true" id="5bf2ce1f-ce97-4ad1-a119-7be58f2e1135" name="Changes" comment="added media queries to control responsiveness of navigation bar to hide display">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +78,7 @@
       <workItem from="1671786027735" duration="417000" />
       <workItem from="1671787427325" duration="13111000" />
       <workItem from="1672732495908" duration="27696000" />
-      <workItem from="1672820019153" duration="17119000" />
+      <workItem from="1672820019153" duration="18315000" />
     </task>
     <task id="LOCAL-00001" summary="header and programming languages done">
       <created>1671800691415</created>
@@ -180,7 +178,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672839533285</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added mobileNavbar() methode in app.component.ts that controls the navigation bar">
+      <created>1672839639617</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1672839639617</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added media queries to control responsiveness of navigation bar to hide display">
+      <created>1672839928074</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1672839928074</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +224,8 @@
     <MESSAGE value="removed header picture and changed position of the btn" />
     <MESSAGE value="added media query for project images and project btn. project area is responsive now also the terminal" />
     <MESSAGE value="Added mobile header section and renamed header-section to header-section-desktop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added mobile header section and renamed header-section to header-section-desktop" />
+    <MESSAGE value="added mobileNavbar() methode in app.component.ts that controls the navigation bar" />
+    <MESSAGE value="added media queries to control responsiveness of navigation bar to hide display" />
+    <option name="LAST_COMMIT_MESSAGE" value="added media queries to control responsiveness of navigation bar to hide display" />
   </component>
 </project>
