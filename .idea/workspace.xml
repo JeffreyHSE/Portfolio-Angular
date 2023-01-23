@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bf2ce1f-ce97-4ad1-a119-7be58f2e1135" name="Changes" comment="added media queries to control responsiveness of navigation bar to hide display">
+    <list default="true" id="5bf2ce1f-ce97-4ad1-a119-7be58f2e1135" name="Changes" comment="removed padding top from navigation bar, that made it look weird for mobile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,23 +34,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ejeanyej/Desktop/Angular/my-app/src/assets&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/ejeanyej/Desktop/Angular/my-app/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/ejeanyej/Desktop/Portfolio-Angular",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/ejeanyej/Desktop/Portfolio-Angular/my-app/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -78,7 +78,8 @@
       <workItem from="1671786027735" duration="417000" />
       <workItem from="1671787427325" duration="13111000" />
       <workItem from="1672732495908" duration="27696000" />
-      <workItem from="1672820019153" duration="18315000" />
+      <workItem from="1672820019153" duration="20161000" />
+      <workItem from="1672842688823" duration="58000" />
     </task>
     <task id="LOCAL-00001" summary="header and programming languages done">
       <created>1671800691415</created>
@@ -192,7 +193,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672839928074</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added custom scrollbar to it">
+      <created>1672840948284</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1672840948284</updated>
+    </task>
+    <task id="LOCAL-00018" summary="removed padding top from navigation bar, that made it look weird for mobile">
+      <created>1672841243608</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1672841243608</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +241,8 @@
     <MESSAGE value="Added mobile header section and renamed header-section to header-section-desktop" />
     <MESSAGE value="added mobileNavbar() methode in app.component.ts that controls the navigation bar" />
     <MESSAGE value="added media queries to control responsiveness of navigation bar to hide display" />
-    <option name="LAST_COMMIT_MESSAGE" value="added media queries to control responsiveness of navigation bar to hide display" />
+    <MESSAGE value="added custom scrollbar to it" />
+    <MESSAGE value="removed padding top from navigation bar, that made it look weird for mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed padding top from navigation bar, that made it look weird for mobile" />
   </component>
 </project>
